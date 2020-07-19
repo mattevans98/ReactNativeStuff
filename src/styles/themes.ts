@@ -1,10 +1,10 @@
 import { ThemesModel } from './utils/themes.model';
 
 const palette = {
-	primaryGreen: '#66ff68',
+	primary: '#7878ff',
 	primaryDarkGray: '#1e1e1e',
-	secondaryGreen: '#145a0a',
-	borderColor: '#8bff8b',
+	secondary: '#00155f',
+	borderColor: '#fff',
 	redAlert: '#ff3232',
 	white: '#fff'
 };
@@ -12,9 +12,9 @@ const palette = {
 export const lightTheme: ThemesModel = {
 	dark: false,
 	colors: {
-		primary: palette.primaryGreen,
+		primary: palette.primary,
 		background: palette.white,
-		card: palette.secondaryGreen,
+		card: palette.secondary,
 		text: palette.primaryDarkGray,
 		border: palette.borderColor,
 		notification: palette.redAlert
@@ -24,9 +24,9 @@ export const lightTheme: ThemesModel = {
 export const darkTheme: ThemesModel = {
 	dark: true,
 	colors: {
-		primary: palette.primaryGreen,
+		primary: palette.primary,
 		background: palette.primaryDarkGray,
-		card: palette.secondaryGreen,
+		card: palette.secondary,
 		text: palette.white,
 		border: palette.borderColor,
 		notification: palette.redAlert
