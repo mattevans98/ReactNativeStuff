@@ -5,6 +5,7 @@ import { useTheme } from '@react-navigation/native';
 import mergeStyles from '../../helpers/mergeStyles';
 import { theme } from '../../styles/MainStyles';
 import SettingsContext from '../../contexts/SettingsContext';
+import { StatusBar } from 'expo-status-bar';
 
 const SettingsScreen: React.FC<LandingScreenProps> = (props) => {
 	const { navigation } = props;
@@ -20,6 +21,7 @@ const SettingsScreen: React.FC<LandingScreenProps> = (props) => {
 			</Text>
 			<Switch onValueChange={settingsContext} value={dark} />
 			<Button title="Back Home" onPress={(): void => navigation.navigate('Home')} />
+			<StatusBar style={dark ? 'light' : 'dark'} />
 		</View>
 	);
 };
