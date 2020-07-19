@@ -1,3 +1,5 @@
+import { ThemesModel } from './utils/themes.model';
+
 const palette = {
 	primaryGreen: '#66ff68',
 	primaryDarkGray: '#1e1e1e',
@@ -7,13 +9,7 @@ const palette = {
 	white: '#fff'
 };
 
-const colors = {
-	standardText: palette.primaryDarkGray,
-	bgColor: palette.white,
-	primaryAccent: palette.primaryGreen
-};
-
-export const lightTheme = {
+export const lightTheme: ThemesModel = {
 	dark: false,
 	colors: {
 		primary: palette.primaryGreen,
@@ -25,7 +21,7 @@ export const lightTheme = {
 	}
 };
 
-export const darkTheme = {
+export const darkTheme: ThemesModel = {
 	dark: true,
 	colors: {
 		primary: palette.primaryGreen,
@@ -36,14 +32,3 @@ export const darkTheme = {
 		notification: palette.redAlert
 	}
 };
-
-// export const themedColors = {
-// 	light: {
-// 		...colors
-// 	},
-// 	dark: {
-// 		standardText: palette.white,
-// 		bgColor: palette.primaryDarkGray,
-// 		primaryAccent: palette.primaryGreen
-// 	}
-// };
