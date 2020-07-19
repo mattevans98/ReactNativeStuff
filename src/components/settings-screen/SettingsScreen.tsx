@@ -1,8 +1,8 @@
 import React from 'react';
 import { Switch, Text, View } from 'react-native';
-import { LandingPageProps } from './utils/LandingPage.model';
+import { LandingScreenProps } from './utils/SettingsScreen.model';
 
-const LandingPage: React.FC<LandingPageProps> = (props: LandingPageProps) => {
+const SettingsScreen: React.FC<LandingScreenProps> = (props: LandingScreenProps) => {
 	const { isDark, toggleDarkTheme, theme } = props;
 
 	return (
@@ -16,4 +16,4 @@ const LandingPage: React.FC<LandingPageProps> = (props: LandingPageProps) => {
 	);
 };
 
-export default LandingPage;
+export default SettingsScreen;
