@@ -11,15 +11,12 @@ const colors = {
 };
 
 export const themedColors = {
-	default: {
-		...colors
-	},
 	light: {
 		...colors
 	},
 	dark: {
-		...colors,
 		standardText: palette.white,
-		bgColor: palette.primaryDarkGray
+		bgColor: palette.primaryDarkGray,
+		primaryAccent: palette.primaryGreen
 	}
 };

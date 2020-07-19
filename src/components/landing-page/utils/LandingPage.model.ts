@@ -1,7 +1,5 @@
 export interface LandingPageProps {
 	isDark: boolean;
-	setIsDark: any;
-	colors: {
-		[key: string]: string;
-	};
+	toggleDarkTheme: () => void;
+	theme: any;
 }

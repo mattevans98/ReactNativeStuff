@@ -3,14 +3,15 @@ import { Switch, Text, View } from 'react-native';
 import { LandingPageProps } from './utils/LandingPage.model';
 
 const LandingPage: React.FC<LandingPageProps> = (props: LandingPageProps) => {
-	const { isDark, setIsDark, colors } = props;
-	const toggleTheme = (): void => setIsDark((prevState: boolean) => !prevState);
+	const { isDark, toggleDarkTheme, theme } = props;
 
 	return (
-		<View>
-			<Text>Welcome to an unnamed finance app!</Text>
-			<Text>Press here to switch to Light or Dark Mode!</Text>
-			<Switch onValueChange={toggleTheme} value={isDark} />
+		<View style={theme.container}>
+			<Text style={theme.text}>
+				<Text style={theme.h1}>Welcome to an unnamed app!{'\n'}</Text>
+				<Text style={theme.h2}>Press here to switch to Light or Dark Mode!</Text>
+			</Text>
+			<Switch onValueChange={toggleDarkTheme} value={isDark} />
 		</View>
 	);
 };
