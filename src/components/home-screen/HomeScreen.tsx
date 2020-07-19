@@ -13,7 +13,8 @@ const HomeScreen: React.FC<HomeScreenProps> = (props: HomeScreenProps) => {
 
 	return (
 		<View style={theme.container}>
-			<Text style={[textWithColor, theme.h1]}>Home Screen</Text>
+			<Text style={[textWithColor, theme.h1]}>Star Wars Database</Text>
+			<Button title="Start Search" onPress={(): void => navigation.navigate('Search')} />
 			<Button title="Settings" onPress={(): void => navigation.navigate('Settings')} />
 			<StatusBar style={dark ? 'light' : 'dark'} />
 		</View>

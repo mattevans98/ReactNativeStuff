@@ -6,6 +6,7 @@ import HomeScreen from './src/components/home-screen/HomeScreen';
 import { AppearanceProvider, useColorScheme } from 'react-native-appearance';
 import { darkTheme, lightTheme } from './src/styles/themes';
 import SettingsContext from './src/contexts/SettingsContext';
+import SearchScreen from './src/components/search-screen/SearchScreen';
 
 const App: React.FC = () => {
 	const scheme = useColorScheme();
@@ -23,6 +24,7 @@ const App: React.FC = () => {
 				<NavigationContainer theme={theme}>
 					<Stack.Navigator initialRouteName="Home">
 						<Stack.Screen name="Home" component={HomeScreen} />
+						<Stack.Screen name="Search" component={SearchScreen} />
 						<Stack.Screen name="Settings" component={SettingsScreen} />
 					</Stack.Navigator>
 				</NavigationContainer>
