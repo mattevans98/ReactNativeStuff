@@ -1,5 +1,5 @@
 export interface LandingScreenProps {
-	isDark: boolean;
-	toggleDarkTheme: () => void;
-	theme: any;
+	navigation: any;
+	theme: 'light' | 'dark' | null;
+	toggleTheme: () => void;
 }
