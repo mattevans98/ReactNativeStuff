@@ -9,7 +9,7 @@ const LandingPage: React.FC<LandingPageProps> = (props: LandingPageProps) => {
 		<View style={theme.container}>
 			<Text style={theme.text}>
 				<Text style={theme.h1}>Welcome to an unnamed app!{'\n'}</Text>
-				<Text style={theme.h2}>Press here to switch to Light or Dark Mode!</Text>
+				<Text style={theme.h2}>Press here to switch to {isDark ? 'Light' : 'Dark'} Mode!</Text>
 			</Text>
 			<Switch onValueChange={toggleDarkTheme} value={isDark} />
 		</View>
