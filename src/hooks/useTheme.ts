@@ -1,10 +1,17 @@
-import { useColorScheme } from 'react-native-appearance';
+import { ColorSchemeName, useColorScheme } from 'react-native';
 import { themedColors } from '../styles/themes';
 
-export const useTheme = () => {
+interface UseThemeReturnObject {
+	colors: {
+		[key: string]: string;
+	};
+	theme: ColorSchemeName;
+}
+
+export const useTheme = (): UseThemeReturnObject => {
 	const theme = useColorScheme();
 
-	const colors = themedColors[theme];
+	const colors = theme ? themedColors[theme] : themedColors.default;
 
 	return {
 		colors,

@@ -11,7 +11,7 @@ const colors = {
 };
 
 export const themedColors = {
-	'no-preference': {
+	default: {
 		...colors
 	},
 	light: {
