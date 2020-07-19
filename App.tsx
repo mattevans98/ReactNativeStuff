@@ -1,30 +1,33 @@
-import { StatusBar } from 'expo-status-bar';
 import React, { useState } from 'react';
-import { View } from 'react-native';
-import LandingPage from './src/components/landing-page/LandingPage';
-import { LandingPageProps } from './src/components/landing-page/utils/LandingPage.model';
-import useTheme from './src/styles/MainStyles';
+import SettingsScreen from './src/components/settings-screen/SettingsScreen';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import HomeScreen from './src/components/home-screen/HomeScreen';
+import { AppearanceProvider, useColorScheme } from 'react-native-appearance';
+import { darkTheme, lightTheme } from './src/styles/themes';
+import SettingsContext from './src/contexts/SettingsContext';
 
 const App: React.FC = () => {
-	const [isDark, setIsDark] = useState(false);
-	const toggleDarkTheme = () => {
-		console.log('Setting theme state');
-		setIsDark((prevState) => !prevState);
+	const scheme = useColorScheme();
+
+	const [theme, setTheme] = useState(scheme === 'dark' ? darkTheme : lightTheme);
+	const toggleTheme = () => {
+		setTheme(theme.dark ? lightTheme : darkTheme);
 	};
 
-	const theme = useTheme(isDark);
-
-	const themeProps: LandingPageProps = {
-		isDark,
-		toggleDarkTheme,
-		theme
-	};
+	const Stack = createStackNavigator();
 
 	return (
-		<View style={theme.container}>
-			<LandingPage {...themeProps} />
-			<StatusBar style="auto" />
-		</View>
+		<AppearanceProvider>
+			<SettingsContext.Provider value={() => toggleTheme()}>
+				<NavigationContainer theme={theme}>
+					<Stack.Navigator initialRouteName="Home">
+						<Stack.Screen name="Home" component={HomeScreen} />
+						<Stack.Screen name="Settings" component={SettingsScreen} />
+					</Stack.Navigator>
+				</NavigationContainer>
+			</SettingsContext.Provider>
+		</AppearanceProvider>
 	);
 };
 
