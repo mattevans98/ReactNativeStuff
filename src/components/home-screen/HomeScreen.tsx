@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, Text, Button } from 'react-native';
-import { HomeScreenProps } from './utils/HomeScreen.model';
+import { CommonProps } from '../utils/common.model';
 import { useTheme } from '@react-navigation/native';
 import { theme } from '../../styles/MainStyles';
 import mergeStyles from '../../helpers/mergeStyles';
 
-const HomeScreen: React.FC<HomeScreenProps> = (props: HomeScreenProps) => {
+const HomeScreen: React.FC<CommonProps> = (props: CommonProps) => {
 	const { navigation } = props;
 	const { colors } = useTheme();
 	const textWithColor = mergeStyles(theme.text, colors.text);
@@ -13,7 +13,7 @@ const HomeScreen: React.FC<HomeScreenProps> = (props: HomeScreenProps) => {
 	return (
 		<View style={theme.container}>
 			<Text style={[textWithColor, theme.h1]}>Kreia Quote Generator</Text>
-			<Button title="Generate Quote" onPress={(): void => console.log('Quote generated')} />
+			<Button title="Generate Quote" onPress={(): void => navigation.navigate('Quote')} />
 			<Button title="Settings" onPress={(): void => navigation.navigate('Settings')} />
 		</View>
 	);
