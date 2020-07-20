@@ -12,7 +12,8 @@ const HomeScreen: React.FC<HomeScreenProps> = (props: HomeScreenProps) => {
 
 	return (
 		<View style={theme.container}>
-			<Text style={[textWithColor, theme.h1]}>Home Screen</Text>
+			<Text style={[textWithColor, theme.h1]}>Kreia Quote Generator</Text>
+			<Button title="Generate Quote" onPress={(): void => console.log('Quote generated')} />
 			<Button title="Settings" onPress={(): void => navigation.navigate('Settings')} />
 		</View>
 	);

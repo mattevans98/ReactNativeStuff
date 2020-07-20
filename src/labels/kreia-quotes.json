@@ -1,0 +1,168 @@
+{
+  "theForce": {
+    "describeTheForce": {
+      "quote": "The Force is like a cloud, a mist that drifts from living creature to creature, set in motion by currents and eddies. It is the eye of the storm, the passions of all living things turned into energy, into a chorus. It is the rising swell at the end of life, the promise of new territories and new blood, the call of new mysteries in the dark."
+    },
+    "nothingIsImpossible": {
+      "quote": "Nothing is impossible with the Force."
+    },
+    "perceptionThroughSight": {
+      "quote": "When one relies on sight to perceive the world, it is like trying to stare at the galaxy through a crack in the door."
+    },
+    "soldierVsJedi": {
+      "quote": "And this is why a common soldier will never triumph against a Jedi. Your military 'tactics' are nothing compared to the Force."
+    },
+    "jediStrippedOfForce": {
+      "quote": "Take the greatest Jedi Knight, strip away the Force, and what remains? They rely on it, depend on it, more than they know. Watch as one tries to hold a blaster, as they try to hold a lightsaber, and you will see nothing more than a woman – or a man. A child."
+    }
+  },
+  "jediOrSith": {
+    "neverDoubt": {
+      "quote": "Never doubt what you have done. All of your decisions have brought you to this point.",
+      "extra": "If you had made any single decision differently in your life, it may have prevented sending the necessary echos that allowed you to be in the position you are in now."
+    },
+    "jediCodeKillsLife": {
+      "quote": "Oh, not to love is no crime, or so the Jedi believe. It is their code that kills life... their adherence to the will of the Force."
+    },
+    "soldierVsJedi": {
+      "quote": "And this is why a common soldier will never triumph against a Jedi. Your military 'tactics' are nothing compared to the Force."
+    },
+    "saberMakesJediLess": {
+      "quote": "A lightsaber - any weapon - only achieves worth in how it is wielded - in the effort, the struggle of one who holds it. Such a weapon does not make a Jedi or a Sith. And at times, it makes them much, much less than they are."
+    },
+    "believeIsToBetray": {
+      "quote": "To believe in an ideal, is to be willing to betray it. It is something no Sith or Jedi has ever truly learned."
+    },
+    "jediStrippedOfForce": {
+      "quote": "Take the greatest Jedi Knight, strip away the Force, and what remains? They rely on it, depend on it, more than they know. Watch as one tries to hold a blaster, as they try to hold a lightsaber, and you will see nothing more than a woman – or a man. A child."
+    },
+    "fallenLearnedNothing": {
+      "quote": "Darth Sion: After all that has happened, still you live. You are difficult to kill.\nKreia: For one as limited as you, perhaps. To have fallen so far and learned nothing, that is your failing."
+    },
+    "warIsAHunger": {
+      "quote": "War... is a hunger. And there are spirits in the galaxy whose hunger is never satisfied."
+    },
+    "heldGalaxyByThroat": {
+      "quote": "What do you wish to hear? That I once believed in the Code of the Jedi? That I felt the call of the Sith, that perhaps, once, I held the galaxy by its throat? That for every good work that I did, I brought equal harm upon the galaxy? That perhaps what the greatest of the Sith Lords knew of evil, they learned from me? What would it matter now? There is only so much comfort in knowing such things, and it is not who I am now."
+    }
+  },
+  "trueStrength": {
+    "charityClenchedFist": {
+      "quote": "Be careful of charity and kindness, lest you do more harm with open hands then a clenched fist."
+    },
+    "growThroughConfrontation": {
+      "quote": "It is only through interaction, through decision and choice, through confrontation, physical or mental, that the Force can grow within you."
+    },
+    "struggleYieldsStrength": {
+      "quote": "If you seek to aid everyone that suffers in the galaxy, you will only weaken yourself... and weaken them. It is the internal struggles, when fought and won on their own, that yield the strongest rewards."
+    },
+    "conflictFindThemselves": {
+      "quote": "A culture's teachings, and most importantly, the nature of its people, achieve definition in conflict. They find themselves, or find themselves lacking."
+    }
+  },
+  "beliefInIdeals": {
+    "seeThroughYourEyes": {
+      "quote": "Direct action is not always the best way. It is a far greater victory to make another see through your eyes than to close theirs forever."
+    },
+    "understandThroughContrast": {
+      "quote": "If you are to truly understand, then you will need the contrast, not adherence to a single idea."
+    },
+    "winBecauseRight": {
+      "quote": "Do you think I seek the death of all living things? There is no victory in such things. I do not want to win our war like this, little Jedi. When I win, I wish it to be because I was right, my teachings true."
+    },
+    "delusionsOfMorality": {
+      "quote": "I cannot force you to listen to reason, only hope that you will grow past these infantile delusions of right and wrong."
+    },
+    "perceptionThroughSight": {
+      "quote": "When one relies on sight to perceive the world, it is like trying to stare at the galaxy through a crack in the door."
+    }
+  },
+  "manipulations": {
+    "universeMayBeMoved": {
+      "quote": "From such small things, from such critical points, the universe and its masses may be moved... that is why you must be careful in all that you do, and in every choice you make."
+    },
+    "seeEnemyAsAlly": {
+      "quote": "Do not see every enemy as an enemy. See them instead as an ally, whether they know it or not."
+    }
+  },
+  "echos": {
+    "plansAreFragile": {
+      "quote": "Plans are fragile things, and life often dashes expectations to the ground."
+    },
+    "charityClenchedFist": {
+      "quote": "Be careful of charity and kindness, lest you do more harm with open hands then a clenched fist."
+    },
+    "universeMayBeMoved": {
+      "quote": "From such small things, from such critical points, the universe and its masses may be moved... that is why you must be careful in all that you do, and in every choice you make."
+    }
+  },
+  "standAlone": {
+    "unitedByHatred": {
+      "quote": "To be united by hatred is a fragile alliance at best."
+    },
+    "growThroughConfrontation": {
+      "quote": "It is only through interaction, through decision and choice, through confrontation, physical or mental, that the Force can grow within you."
+    },
+    "doNotRelyOnOthers": {
+      "quote": "My warning to you is this - do not rely on your companions to compensate for your weaknesses in skill. There will be times they will not be there to help you when needed."
+    }
+  },
+  "theExile": {
+    "thereIsOnlyYou": {
+      "quote": "Perhaps you were expecting some surprise, for me to reveal a secret that had eluded you, something that would change your perspective of events, shatter you to your core. There is no great revelation, no great secret. There is only you."
+    },
+    "councilYouWereBroken": {
+      "quote": "[The Jedi Council condemning the Exile while Kreia listens in]\nJedi Master Vrook: You were deafened.\nKreia: At last you could hear.\nJedi Master Kavar: You were broken.\nKreia: You were whole.\nJedi Master Zez-Kai-Ell: You were blinded.\nKreia: And at last, you saw."
+    },
+    "iUsedYou": {
+      "quote": "Yes, always. From the moment you awoke, I have used you. I have used you so that you might become strong, stronger than I. I used you to keep the Lords of the Sith from condemning the galaxy to death with their power unchecked. I used you to lure them to Telos, where they could be, at last, fought and killed. I used you to reveal Atris’ corruption, so that her teachings could be ended before they began. I used you to gather the Jedi so they could be destroyed. And I used you to make those who wounded me reveal themselves, so they could be killed by the Republic."
+    },
+    "truthInTheExile": {
+      "quote": "There is no truth in the Force. But there is truth in you, Exile."
+    },
+    "killedTheGalaxyToPreserve": {
+      "quote": "I would have killed the galaxy to preserve you. I would have let the galaxy die. You are more rare than you know, and what you have taught yourself must not be allowed to die. You are not a Jedi. Not truly. And it is for that, that I love you."
+    }
+  },
+  "kreiaConundrums": {
+    "findAmongstTheDead": {
+      "quote": "[The Exile searching the belongings of a corpse]\n\"Find what you are looking for amongst the dead?\""
+    },
+    "stagnantRepublic": {
+      "quote": "A culture's teachings, and most importantly, the nature of its people, achieve definition in conflict. They find themselves, or find themselves lacking. Too long did the Republic remain unchallenged. It is a stagnant beast that labors for breath; and has for centuries. The Jedi Order was the heart that sustained its sickness — now the Jedi are lost, we shall see how long the Republic can survive."
+    },
+    "perceptionThroughSight": {
+      "quote": "When one relies on sight to perceive the world, it is like trying to stare at the galaxy through a crack in the door."
+    },
+    "saberMakesJediLess": {
+      "quote": "A lightsaber - any weapon - only achieves worth in how it is wielded - in the effort, the struggle of one who holds it. Such a weapon does not make a Jedi or a Sith. And at times, it makes them much, much less than they are."
+    },
+    "charityClenchedFist": {
+      "quote": "Be careful of charity and kindness, lest you do more harm with open hands then a clenched fist."
+    },
+    "understandThroughContrast": {
+      "quote": "If you are to truly understand, then you will need the contrast, not adherence to a single idea."
+    },
+    "betrayAnIdeal": {
+      "quote": "To believe in an ideal is to be willing to betray it."
+    },
+    "cheapenedTheirStruggle": {
+      "quote": "If you seek to aid everyone that suffers in the galaxy, you will only weaken yourself and weaken them. It is the internal struggles, when fought and won on their own, that yield the strongest rewards. You stole that struggle from them, cheapened it. If you care for others, then dispense with pity and sacrifice and recognize the value in letting them fight their own battles. And when they triumph, they will be even stronger for the victory."
+    },
+    "doNotRelyOnOthers": {
+      "quote": "My warning to you is this - do not rely on your companions to compensate for your weaknesses in skill. There will be times they will not be there to help you when needed."
+    },
+    "apathyIsDeath": {
+      "quote": "Apathy is death. Worse than death. Because at least a rotting corpse feeds the beasts and insects."
+    },
+    "openAnothersEyes": {
+      "quote": "Direct action is not always the best way. It is a far greater victory to make another see through your eyes than to close theirs forever."
+    },
+    "theUnsaidBuildsTragedies": {
+      "quote": "It is all that is left unsaid upon which tragedies are built."
+    },
+    "quietFall": {
+      "quote": "It is such a quiet thing, to fall. But far more terrible is to admit it."
+    }
+  }
+}
