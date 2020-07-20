@@ -1,25 +1,22 @@
 import { ThemesModel } from './utils/themes.model';
 
 const palette = {
-	primaryGreen: '#01bf3a', // Main Accent Colors
-	primaryDarkGray: '#140f0a', // Used for high-contrast text and Dark Mode BG
-	primaryBrown: '#665028', // Light Mode BG Color
-	secondaryBrown: '#3c2d1e', // Secondary brown accents
-	secondaryGreen: '#008719', // Secondary green accents
-	tertiaryGreen: '#9EE992', // Borders and tertiary accents
-	tertiaryBrown: '#826953',
-	redAlert: '#ff3232', // Notification colors
-	white: '#fff' // Used for high-contrast text
+	darkBlue: '#002439', // Used for Dark Theme BG and Light Theme text
+	blueHintedWhite: '#e4eff0', // Used for Light Theme BG and Dark Theme text
+	midBlue: '#005066', // Used for low-vibrancy accents
+	slateBlueGray: '#4e7988', // Misc styles
+	skyblue: '#78cce2', // Used for high-vibrancy accents
+	redAlert: '#ff3232' // Notification colors
 };
 
 export const lightTheme: ThemesModel = {
 	dark: false,
 	colors: {
-		primary: palette.primaryGreen,
-		background: palette.primaryBrown,
-		card: palette.secondaryBrown,
-		text: palette.white,
-		border: palette.secondaryGreen,
+		primary: palette.midBlue,
+		background: palette.blueHintedWhite,
+		card: palette.skyblue,
+		text: palette.darkBlue,
+		border: palette.slateBlueGray,
 		notification: palette.redAlert
 	}
 };
@@ -27,11 +24,11 @@ export const lightTheme: ThemesModel = {
 export const darkTheme: ThemesModel = {
 	dark: true,
 	colors: {
-		primary: palette.primaryGreen,
-		background: palette.primaryDarkGray,
-		card: palette.secondaryBrown,
-		text: palette.white,
-		border: palette.secondaryGreen,
+		primary: palette.skyblue,
+		background: palette.darkBlue,
+		card: palette.midBlue,
+		text: palette.blueHintedWhite,
+		border: palette.slateBlueGray,
 		notification: palette.redAlert
 	}
 };
