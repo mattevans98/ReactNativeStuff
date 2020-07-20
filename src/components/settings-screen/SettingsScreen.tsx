@@ -14,10 +14,7 @@ const SettingsScreen: React.FC<LandingScreenProps> = (props) => {
 
 	return (
 		<View style={theme.container}>
-			<Text style={textWithColor}>
-				<Text style={theme.h1}>Welcome to an unnamed app!{'\n'}</Text>
-				<Text style={theme.h2}>Press here to switch to {dark ? 'Light' : 'Dark'} Mode!</Text>
-			</Text>
+			<Text style={[theme.h1, textWithColor]}>Press here to switch to {dark ? 'Light' : 'Dark'} Mode!</Text>
 			<Switch onValueChange={settingsContext} value={dark} />
 			<Button title="Back Home" onPress={(): void => navigation.navigate('Home')} />
 		</View>
